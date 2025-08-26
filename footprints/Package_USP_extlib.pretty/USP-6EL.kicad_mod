@@ -1,0 +1,173 @@
+(footprint "USP-6EL"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -2.032 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "5bf0ca7f-305e-49a7-aee4-54279f5b5e3e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "USP-6EL"
+		(at 0 1.905 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "6201a30e-2520-4366-a939-28a2e73fb59c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7dd323e4-9572-4923-98d3-aa46d73b6e6d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://product.torexsemi.com/files/packages/usp-6el-pkg.pdf"
+		(at 0 3.175 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "28f91b78-e019-46c8-ba9c-9c22b5493936")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "055fdfe2-9aba-4c48-87d6-a66ff5c474e6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 1 -1.01)
+		(end -1 -1.01)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "73b6391d-aae5-43e1-8970-ef430431f41b")
+	)
+	(fp_line
+		(start 1 1.01)
+		(end -1 1.01)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "76b2dd19-b74a-4087-9c9f-e28827d9a93a")
+	)
+	(fp_circle
+		(center -1.35 -0.55)
+		(end -1.2 -0.55)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "18a54fb0-bd52-41f5-b8fd-a18e50e609a7")
+	)
+	(fp_rect
+		(start -1 -0.9)
+		(end 1 0.9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "63e241c4-b449-4df8-8f59-071f52c39660")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "588d0147-ba32-44ff-83af-62ff38958e13")
+		(effects
+			(font
+				(size 0.25 0.25)
+				(thickness 0.04)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.9375 -0.55)
+		(size 0.375 0.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "e913bc78-f865-412f-86ac-84eeb1bbbea8")
+	)
+	(pad "2" smd rect
+		(at -0.9375 0)
+		(size 0.375 0.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "e3dcdf9a-5bd1-481c-80ce-a36298ced64d")
+	)
+	(pad "3" smd rect
+		(at -0.9375 0.55)
+		(size 0.375 0.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "f71b217e-7f95-461f-8088-b16f8369b472")
+	)
+	(pad "4" smd rect
+		(at 0.9375 0.55)
+		(size 0.375 0.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "ce8ed49b-067a-497c-b93e-11303180b194")
+	)
+	(pad "5" smd rect
+		(at 0.9375 0)
+		(size 0.375 0.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "cd4638b7-bf48-44f3-aa0a-77abb5a62540")
+	)
+	(pad "6" smd rect
+		(at 0.9375 -0.55)
+		(size 0.375 0.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "db900468-e41a-443d-9b0a-db5498b1f034")
+	)
+	(pad "7" smd rect
+		(at 0 0)
+		(size 1.1 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "9de28eb2-cbf0-481e-b82b-e069e9292d41")
+	)
+)
